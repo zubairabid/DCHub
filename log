@@ -1,0 +1,33 @@
+2018-11-07 20:47:00,032 ERROR: ERROR: Setting up logging to file failed: 
+Traceback (most recent call last):
+  File "/home/server/DCHub/dc/hub.py", line 926, in setuplogging
+AttributeError: 'DCHub' object has no attribute 'uid'
+2018-11-07 20:47:00,034 DEBUG: Loaded 7 accounts
+2018-11-07 20:47:00,036 DEBUG: Loaded 6 user commands
+2018-11-07 20:47:00,036 WARNING: Bots directory does not exist
+2018-11-07 20:47:00,036 INFO: Starting main loop
+2018-11-07 20:47:10,730 DEBUG: New user connection from 10.1.130.174:38397/
+2018-11-07 20:47:10,758 DEBUG: User logged in: 10.1.130.174:38397/_khullamdulla
+2018-11-07 20:47:37,730 DEBUG: New user connection from 10.1.130.174:45649/
+2018-11-07 20:47:37,731 INFO: Duplicate login and IPs match, removing currently logged in user
+2018-11-07 20:47:37,731 DEBUG: Removing User: 10.1.130.174:38397/_khullamdulla
+2018-11-07 20:47:37,731 ERROR: Serious error in main control loop
+Traceback (most recent call last):
+  File "/home/server/DCHub/dc/hub.py", line 643, in mainloop
+  File "/home/server/DCHub/dc/hub.py", line 716, in processcommands
+RuntimeError: dictionary changed size during iteration
+2018-11-07 20:47:37,733 DEBUG: User logged in: 10.1.130.174:45649/_khullamdulla
+2018-11-07 20:48:11,362 INFO: Stopping due to signal 2
+2018-11-07 20:48:11,776 DEBUG: Removing User: 10.1.130.174:45649/_khullamdulla
+2018-11-07 20:50:35,908 ERROR: ERROR: Setting up logging to file failed: 
+Traceback (most recent call last):
+  File "/home/server/DCHub/dc/hub.py", line 926, in setuplogging
+AttributeError: 'DCHub' object has no attribute 'uid'
+2018-11-07 20:50:35,910 DEBUG: Loaded 7 accounts
+2018-11-07 20:50:35,912 DEBUG: Loaded 6 user commands
+2018-11-07 20:50:35,912 WARNING: Bots directory does not exist
+2018-11-07 20:50:35,912 INFO: Starting main loop
+2018-11-07 20:50:36,730 DEBUG: New user connection from 10.1.130.174:41721/
+2018-11-07 20:50:36,733 DEBUG: User logged in: 10.1.130.174:41721/_khullamdulla
+2018-11-07 20:50:37,176 INFO: Stopping due to signal 2
+2018-11-07 20:50:37,737 DEBUG: Removing User: 10.1.130.174:41721/_khullamdulla
