@@ -31,3 +31,122 @@ AttributeError: 'DCHub' object has no attribute 'uid'
 2018-11-07 20:50:36,733 DEBUG: User logged in: 10.1.130.174:41721/_khullamdulla
 2018-11-07 20:50:37,176 INFO: Stopping due to signal 2
 2018-11-07 20:50:37,737 DEBUG: Removing User: 10.1.130.174:41721/_khullamdulla
+2018-11-08 13:40:59,338 ERROR: ERROR: Setting up logging to file failed: 
+Traceback (most recent call last):
+  File "/home/server/DCHub/dc/hub.py", line 926, in setuplogging
+AttributeError: 'DCHub' object has no attribute 'uid'
+2018-11-08 13:40:59,340 DEBUG: Loaded 7 accounts
+2018-11-08 13:40:59,342 DEBUG: Loaded 6 user commands
+2018-11-08 13:40:59,342 WARNING: Bots directory does not exist
+2018-11-08 13:40:59,343 INFO: Starting main loop
+2018-11-08 13:42:48,588 DEBUG: New user connection from 10.1.131.133:41925/
+2018-11-08 13:42:48,615 DEBUG: User logged in: 10.1.131.133:41925/shanshan
+2018-11-08 13:43:08,181 DEBUG: New user connection from 10.1.131.133:44707/
+2018-11-08 13:43:08,208 INFO: Duplicate login and IPs match, removing currently logged in user
+2018-11-08 13:43:08,209 DEBUG: Removing User: 10.1.131.133:41925/shanshan
+2018-11-08 13:43:08,209 ERROR: Serious error in main control loop
+Traceback (most recent call last):
+  File "/home/server/DCHub/dc/hub.py", line 643, in mainloop
+  File "/home/server/DCHub/dc/hub.py", line 716, in processcommands
+RuntimeError: dictionary changed size during iteration
+2018-11-08 13:43:08,290 DEBUG: User logged in: 10.1.131.133:44707/shanshan
+2018-11-08 13:43:12,301 DEBUG: New user connection from 10.1.130.174:42833/
+2018-11-08 13:43:12,305 DEBUG: User logged in: 10.1.130.174:42833/_khullamdulla
+2018-11-08 13:43:42,182 DEBUG: New user connection from 10.1.131.133:55773/
+2018-11-08 13:43:42,213 INFO: Duplicate login and IPs match, removing currently logged in user
+2018-11-08 13:43:42,213 DEBUG: Removing User: 10.1.131.133:44707/shanshan
+2018-11-08 13:43:42,214 ERROR: Serious error in main control loop
+Traceback (most recent call last):
+  File "/home/server/DCHub/dc/hub.py", line 643, in mainloop
+  File "/home/server/DCHub/dc/hub.py", line 716, in processcommands
+RuntimeError: dictionary changed size during iteration
+2018-11-08 13:43:42,261 DEBUG: User logged in: 10.1.131.133:55773/shanshan
+2018-11-08 13:56:31,714 DEBUG: New user connection from 10.1.130.174:39761/
+2018-11-08 13:56:31,716 INFO: Duplicate login and IPs match, removing currently logged in user
+2018-11-08 13:56:31,716 DEBUG: Removing User: 10.1.130.174:42833/_khullamdulla
+2018-11-08 13:56:31,716 ERROR: Serious error in main control loop
+Traceback (most recent call last):
+  File "/home/server/DCHub/dc/hub.py", line 643, in mainloop
+  File "/home/server/DCHub/dc/hub.py", line 716, in processcommands
+RuntimeError: dictionary changed size during iteration
+2018-11-08 13:56:31,719 DEBUG: User logged in: 10.1.130.174:39761/_khullamdulla
+2018-11-08 14:01:19,379 DEBUG: New user connection from 10.1.130.174:58681/
+2018-11-08 14:01:19,395 DEBUG: User logged in: 10.1.130.174:58681/khullamdulla
+2018-11-08 14:01:31,379 DEBUG: New user connection from 10.1.130.174:42177/
+2018-11-08 14:01:31,380 INFO: Duplicate login and IPs match, removing currently logged in user
+2018-11-08 14:01:31,380 DEBUG: Removing User: 10.1.130.174:58681/khullamdulla
+2018-11-08 14:01:31,380 ERROR: Serious error in main control loop
+Traceback (most recent call last):
+  File "/home/server/DCHub/dc/hub.py", line 643, in mainloop
+  File "/home/server/DCHub/dc/hub.py", line 716, in processcommands
+RuntimeError: dictionary changed size during iteration
+2018-11-08 14:01:31,394 DEBUG: User logged in: 10.1.130.174:42177/khullamdulla
+2018-11-08 14:01:37,712 DEBUG: New user connection from 10.1.130.174:43393/
+2018-11-08 14:01:37,713 INFO: Duplicate login and IPs match, removing currently logged in user
+2018-11-08 14:01:37,713 DEBUG: Removing User: 10.1.130.174:39761/_khullamdulla
+2018-11-08 14:01:37,714 ERROR: Serious error in main control loop
+Traceback (most recent call last):
+  File "/home/server/DCHub/dc/hub.py", line 643, in mainloop
+  File "/home/server/DCHub/dc/hub.py", line 716, in processcommands
+RuntimeError: dictionary changed size during iteration
+2018-11-08 14:01:37,716 DEBUG: User logged in: 10.1.130.174:43393/_khullamdulla
+2018-11-08 14:01:50,712 DEBUG: New user connection from 10.1.130.174:38519/
+2018-11-08 14:01:50,713 INFO: Duplicate login and IPs match, removing currently logged in user
+2018-11-08 14:01:50,713 DEBUG: Removing User: 10.1.130.174:43393/_khullamdulla
+2018-11-08 14:01:50,714 ERROR: Serious error in main control loop
+Traceback (most recent call last):
+  File "/home/server/DCHub/dc/hub.py", line 643, in mainloop
+  File "/home/server/DCHub/dc/hub.py", line 716, in processcommands
+RuntimeError: dictionary changed size during iteration
+2018-11-08 14:01:50,716 DEBUG: User logged in: 10.1.130.174:38519/_khullamdulla
+2018-11-08 14:01:53,377 DEBUG: New user connection from 10.1.130.174:54731/
+2018-11-08 14:01:53,379 INFO: Duplicate login and IPs match, removing currently logged in user
+2018-11-08 14:01:53,379 DEBUG: Removing User: 10.1.130.174:42177/khullamdulla
+2018-11-08 14:01:53,380 ERROR: Serious error in main control loop
+Traceback (most recent call last):
+  File "/home/server/DCHub/dc/hub.py", line 643, in mainloop
+  File "/home/server/DCHub/dc/hub.py", line 716, in processcommands
+RuntimeError: dictionary changed size during iteration
+2018-11-08 14:01:53,394 DEBUG: User logged in: 10.1.130.174:54731/khullamdulla
+2018-11-08 14:02:18,376 DEBUG: New user connection from 10.1.130.174:48311/
+2018-11-08 14:02:18,378 INFO: Duplicate login and IPs match, removing currently logged in user
+2018-11-08 14:02:18,378 DEBUG: Removing User: 10.1.130.174:54731/khullamdulla
+2018-11-08 14:02:18,379 ERROR: Serious error in main control loop
+Traceback (most recent call last):
+  File "/home/server/DCHub/dc/hub.py", line 643, in mainloop
+  File "/home/server/DCHub/dc/hub.py", line 716, in processcommands
+RuntimeError: dictionary changed size during iteration
+2018-11-08 14:02:18,391 DEBUG: User logged in: 10.1.130.174:48311/khullamdulla
+2018-11-08 14:02:23,712 DEBUG: New user connection from 10.1.130.174:37321/
+2018-11-08 14:02:23,713 INFO: Duplicate login and IPs match, removing currently logged in user
+2018-11-08 14:02:23,714 DEBUG: Removing User: 10.1.130.174:38519/_khullamdulla
+2018-11-08 14:02:23,714 ERROR: Serious error in main control loop
+Traceback (most recent call last):
+  File "/home/server/DCHub/dc/hub.py", line 643, in mainloop
+  File "/home/server/DCHub/dc/hub.py", line 716, in processcommands
+RuntimeError: dictionary changed size during iteration
+2018-11-08 14:02:23,716 DEBUG: User logged in: 10.1.130.174:37321/_khullamdulla
+2018-11-08 14:14:02,390 DEBUG: Removing connection due to error in sending data: 10.1.131.133:55773/shanshan
+2018-11-08 14:14:02,390 DEBUG: Removing User: 10.1.131.133:55773/shanshan
+2018-11-08 14:19:45,697 INFO: Stopping due to signal 2
+2018-11-08 14:19:46,597 DEBUG: Removing User: 10.1.130.174:48311/khullamdulla
+2018-11-08 14:27:29,016 ERROR: ERROR: Setting up logging to file failed: 
+Traceback (most recent call last):
+  File "/home/server/DCHub/dc/hub.py", line 926, in setuplogging
+AttributeError: 'DCHub' object has no attribute 'uid'
+2018-11-08 14:27:29,018 DEBUG: Loaded 7 accounts
+2018-11-08 14:27:29,020 DEBUG: Loaded 6 user commands
+2018-11-08 14:27:29,020 WARNING: Bots directory does not exist
+2018-11-08 14:27:29,020 INFO: Starting main loop
+2018-11-08 14:29:26,098 INFO: Stopping due to signal 2
+2018-11-08 14:29:26,169 INFO: Shutting down logging system
+2018-11-16 13:52:54,284 ERROR: ERROR: Setting up logging to file failed: 
+Traceback (most recent call last):
+  File "/home/server/DCHub/dc/hub.py", line 926, in setuplogging
+AttributeError: 'DCHub' object has no attribute 'uid'
+2018-11-16 13:52:54,338 DEBUG: Loaded 7 accounts
+2018-11-16 13:52:54,393 DEBUG: Loaded 6 user commands
+2018-11-16 13:52:54,393 WARNING: Bots directory does not exist
+2018-11-16 13:52:54,394 INFO: Starting main loop
+2018-11-16 13:53:06,898 INFO: Stopping due to signal 2
+2018-11-16 13:53:07,411 INFO: Shutting down logging system
