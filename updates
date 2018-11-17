@@ -56,3 +56,9 @@
 
 ::: DCHub RESTARTED :::
  ===
+
+
+ === November 18, 2018 ===
+1. Hub starts *almost fine, devices can connect to it without issue.
+2. Error with pidfile and groups even on using `dchub` system account with root privileges and necessary group settings.
+3. Connected clients cannot connect to one another.
